@@ -135,7 +135,7 @@ What I did:
 
 Evidence:
 
-- [Environment evidence](./evidence/00_environment/)
+- [Environment evidence](./week1/evidence/00_environment/)
 
 ---
 
@@ -164,8 +164,8 @@ I also learned that receiving a transaction hash does not mean the transaction i
 
 Details and screenshots:
 
-- [Exercise notes](./evidence/01_transfer_ckb/summary.md)
-- [Evidence](./evidence/01_transfer_ckb/)
+- [Exercise notes](./week1/evidence/01_transfer_ckb/summary.md)
+- [Evidence](./week1/evidence/01_transfer_ckb/)
 
 ---
 
@@ -189,8 +189,8 @@ My basic understanding of an OutPoint is:
 
 Details and screenshots:
 
-- [Exercise notes](./evidence/02_store_data_cell/summary.md)
-- [Evidence](./evidence/02_store_data_cell/)
+- [Exercise notes](./week1/evidence/02_store_data_cell/summary.md)
+- [Evidence](./week1/evidence/02_store_data_cell/)
 
 ---
 
@@ -225,8 +225,8 @@ The original token Cell is consumed and new token Cells are created.
 
 Details and screenshots:
 
-- [Exercise notes](./evidence/03_fungible_token/summary.md)
-- [Evidence](./evidence/03_fungible_token/)
+- [Exercise notes](./week1/evidence/03_fungible_token/summary.md)
+- [Evidence](./week1/evidence/03_fungible_token/)
 
 ---
 
@@ -256,8 +256,8 @@ I also used the transaction hash and output index again to find the created Spor
 
 Details and screenshots:
 
-- [Exercise notes](./evidence/04_create_dob/summary.md)
-- [Evidence](./evidence/04_create_dob/)
+- [Exercise notes](./week1/evidence/04_create_dob/summary.md)
+- [Evidence](./week1/evidence/04_create_dob/)
 
 ---
 
@@ -299,8 +299,8 @@ Now I understand that a Lock Script is a program that defines the condition requ
 
 Details and screenshots:
 
-- [Exercise notes](./evidence/05_simple_lock/summary.md)
-- [Evidence](./evidence/05_simple_lock/)
+- [Exercise notes](./week1/evidence/05_simple_lock/summary.md)
+- [Evidence](./week1/evidence/05_simple_lock/)
 
 ---
 
@@ -384,4 +384,4 @@ Hands-on:
 - [x] Create a DOB
 - [x] Build and deploy a Simple Lock
 
-All screenshots and detailed exercise notes are available in the [evidence](./evidence/) directory.
+All screenshots and detailed exercise notes are available in the [evidence](./week1/evidence/) directory.
