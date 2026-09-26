@@ -120,13 +120,13 @@ The process is:
 
 ### Figure 1 — App Transaction History
 
-![Figure 1 — App Transaction History](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%201%20%E2%80%94%20App%20Transaction%20History.png)
+![Figure 1 — App Transaction History](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%201%20%E2%80%94%20App%20Transaction%20History.png)
 
 This screenshot shows the application-level transaction history containing Spore operations, including Create, Transfer, and Melt transactions.
 
 ### Figure 2 — Console – Create Spore
 
-![Figure 2 — Console – Create Spore](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%202%20%E2%80%94%20Console%20%E2%80%93%20Create%20Spore.png)
+![Figure 2 — Console – Create Spore](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%202%20%E2%80%94%20Console%20%E2%80%93%20Create%20Spore.png)
 
 The console shows the Spore creation process, including the Spore ID and transaction information.
 
@@ -165,13 +165,13 @@ After broadcasting, the transaction is added to the application history and moni
 
 ### Figure 3 — Console – Transfer Spore
 
-![Figure 3 — Console – Transfer Spore](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%203%20%E2%80%94%20Console%20%E2%80%93%20Transfer%20Spore.png)
+![Figure 3 — Console – Transfer Spore](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%203%20%E2%80%94%20Console%20%E2%80%93%20Transfer%20Spore.png)
 
 The console demonstrates the transaction lifecycle changing from `pending` to `committed`.
 
 ### Figure 5 — Blockchain Explorer – Transfer
 
-![Figure 5 — Blockchain Explorer – Transfer](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%205%20%E2%80%94%20Blockchain%20Explorer%20%E2%80%93%20Transfer.png)
+![Figure 5 — Blockchain Explorer – Transfer](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%205%20%E2%80%94%20Blockchain%20Explorer%20%E2%80%93%20Transfer.png)
 
 The blockchain explorer provides external evidence of the transfer transaction, including the transaction hash and block information.
 
@@ -204,13 +204,13 @@ During testing, ownership was also verified as an important part of the Spore li
 
 ### Figure 4 — Console – Melt Spore
 
-![Figure 4 — Console – Melt Spore](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%204%20%E2%80%94%20Console%20%E2%80%93%20Melt%20Spore.png)
+![Figure 4 — Console – Melt Spore](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%204%20%E2%80%94%20Console%20%E2%80%93%20Melt%20Spore.png)
 
 The console demonstrates the Melt transaction progressing from `pending` to `committed`.
 
 ### Figure 6 — Blockchain Explorer – Melt
 
-![Figure 6 — Blockchain Explorer – Melt](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%206%20%E2%80%94%20Blockchain%20Explorer%20%E2%80%93%20Melt.png)
+![Figure 6 — Blockchain Explorer – Melt](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%206%20%E2%80%94%20Blockchain%20Explorer%20%E2%80%93%20Melt.png)
 
 The blockchain explorer provides external evidence of the Melt transaction, including the transaction hash and block information.
 
@@ -282,7 +282,7 @@ This means the application history remains available after refreshing the browse
 
 ### Figure 7 — App after Refresh
 
-![Figure 7 — App after Refresh](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%207%20%E2%80%94%20App%20after%20Refresh.png)
+![Figure 7 — App after Refresh](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%207%20%E2%80%94%20App%20after%20Refresh.png)
 
 The application history remains visible after refreshing the browser, demonstrating that the transaction records were persisted locally.
 
@@ -300,7 +300,7 @@ The backend request produced a fetch error in the console, but this did not prev
 
 ### Figure 8 — Backend Stopped + App Still Works
 
-![Figure 8 — Backend Stopped + App Still Works](https://raw.githubusercontent.com/BTThang/ckbuilder/blob/main/week5/images/Figure%208%20%E2%80%94%20Backend%20Stopped%20%2B%20App%20Still%20Works.png
+![Figure 8 — Backend Stopped + App Still Works](https://raw.githubusercontent.com/BTThang/ckbuilder/main/week5/images/Figure%208%20%E2%80%94%20Backend%20Stopped%20%2B%20App%20Still%20Works.png)
 
 This demonstrates that the frontend can remain functional even when the backend service is unavailable.
 
