@@ -82,7 +82,7 @@ Credora are not made.
 
 ------------------------------------------------------------------------
 
-## 4. --- Verification Core Hardening --- IMPLEMENTED + TESTED
+## 4. Verification Core Hardening --- IMPLEMENTED + TESTED
 
 Two concrete defects were fixed.
 
@@ -112,7 +112,7 @@ rewrite.
 
 ------------------------------------------------------------------------
 
-## 5. --- Cross-Family Validation --- TESTED
+## 5. Cross-Family Validation --- TESTED
 
 A matrix covered valid, malformed, not-found, unsupported, RPC failure,
 owner match, owner mismatch, API routing, UI result, and evidence
@@ -129,7 +129,7 @@ successfully.
 
 ------------------------------------------------------------------------
 
-## 6. --- API & Security Review --- IMPLEMENTED + TESTED
+## 6. API & Security Review --- IMPLEMENTED + TESTED
 
 The public verification endpoint remains intentionally unauthenticated.
 
@@ -150,7 +150,7 @@ Rate limiting remains per-process and keyed by `req.ip` behind a proxy.
 
 ------------------------------------------------------------------------
 
-## 7. --- Developer Documentation & Extensibility --- IMPLEMENTED
+## 7. Developer Documentation & Extensibility --- IMPLEMENTED
 
 The `FamilyVerifier` contract, five-state vocabulary, add-a-family
 walkthrough, testing pattern, consumer-vs-family distinction, and source
@@ -165,7 +165,7 @@ implemented or integrated**.
 
 ------------------------------------------------------------------------
 
-## 8. --- Production QA --- LIVE-VALIDATED
+## 8. Production QA --- LIVE-VALIDATED
 
 The initial production API smoke matrix recorded **13/14 PASS**, with
 the malformed Spore case showing old `not_found` behavior because Render
@@ -182,7 +182,7 @@ execution environment.
 
 ------------------------------------------------------------------------
 
-## 9. --- Extensibility Proof --- PASS
+## 9. Extensibility Proof --- PASS
 
 A test-only fourth family (`mock-demo`) was added through the existing
 verifier seam.
@@ -197,7 +197,7 @@ required.
 
 ------------------------------------------------------------------------
 
-## 10. --- Evidence & Explainability --- PASS
+## 10. Evidence & Explainability --- PASS
 
 Added a family-neutral `evidenceSummary` as an additive response field.
 
@@ -210,7 +210,7 @@ remains authoritative.
 
 ------------------------------------------------------------------------
 
-## 11. --- End-to-End Demo --- PASS
+## 11. End-to-End Demo --- PASS
 
 Validated multi-family scenarios including: - Vellum positive; - CKB-PoP
 positive; - Spore not-found; - unsupported family; - owner match; -
@@ -221,7 +221,7 @@ Local source was also run against real CKB Testnet.
 
 ------------------------------------------------------------------------
 
-## 12. --- Product Differentiation --- PASS
+## 12. Product Differentiation --- PASS
 
 Positioning:
 
@@ -235,7 +235,7 @@ No third-party Credora or SkillPass integration is claimed.
 
 ------------------------------------------------------------------------
 
-## 13. --- Wallet Integration Research --- RESEARCHED
+## 13. Wallet Integration Research --- RESEARCHED
 
 `ckb-connect-wallet-kit` was evaluated and **not integrated**.
 
@@ -249,7 +249,7 @@ required identity-to-owner flow directly.
 
 ------------------------------------------------------------------------
 
-## 14. --- Native Wallet Identity Integration --- PASS
+## 14. Native Wallet Identity Integration --- PASS
 
 The connected wallet now feeds the existing `expectedOwner` path:
 
@@ -300,7 +300,7 @@ Typecheck, lint and build passed in both projects.
 
 ------------------------------------------------------------------------
 
-## 15.  --- Live Testnet Validation --- PASS
+## 15. Live Testnet Validation --- PASS
 
 Real CKB Testnet credentials were used.
 
