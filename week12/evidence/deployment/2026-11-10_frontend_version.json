@@ -1,0 +1,9 @@
+﻿{
+  "name": "ckb-digital-credential-web",
+  "version": "1.0.0",
+  "commit": "c5db2d71e134e3a96b59f7ca7583650f199126c1",
+  "builtAt": "2026-11-04T14:29:28.483Z",
+  "environment": "production",
+  "network": "testnet"
+}
+

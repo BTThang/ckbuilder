@@ -1,0 +1,1 @@
+﻿{"data":[{"family":"spore","description":"Spore credential cells: CKB cell state plus the Phase 1 cryptographic issuer proof."},{"family":"vellum-claim","description":"Vellum claim cells, verified against chain-authoritative claim state."},{"family":"ckb-pop","description":"CKB-PoP participation badges, verified against chain-authoritative dob-badge cells."}],"meta":{"total":3}}
