@@ -162,21 +162,20 @@ baseline commits, so the traceability conclusion is unchanged.
 
 ## 5. Evidence Collection Register
 
-Evidence files are stored under `week12/evidence/`. See `week12/README.md` for
-the naming convention and classification rules.
+Evidence files are stored under `week12/evidence/`. See `week12/README.md` for the naming convention and classification rules.
 
 | ID | Evidence | Classification | Status | File |
 |---|---|---|---|---|
-| E1 | Desktop verify page, no wallet connected | Independently captured | PASS | `evidence/desktop/2026-11-10_desktop_verify-page_unconnected.png` |
-| E2 | Desktop credential verification, ownership MATCH | Independently captured (public verification) | PASS | `evidence/desktop/2026-11-10_desktop_verify-match_spore.png` |
-| E3 | Desktop credential verification, ownership MISMATCH | Independently captured (public verification) | PASS | `evidence/desktop/2026-11-10_desktop_verify-mismatch_spore.png` |
-| E4 | Desktop - real wallet connected | Required | PASS with caveat | `evidence/desktop/connected-JoyId.png` |
-| E5 | Desktop - wallet switching and Disconnect | Required | PASS with note | `evidence/desktop/connected-JoyId.png`, `evidence/desktop/desktop_disconnect.png` |
-| E6 | Mobile verify page layout | Independently captured | PASS | `evidence/mobile/2026-11-10_mobile_verify-page_unconnected.png` |
-| E7 | Mobile - wallet menu and Disconnect | Required | PASS with note | `evidence/mobile/mobile_wallet-menu_disconnect.png`, `evidence/mobile/mobile_disconnected-result.png` |
-| E8 | Vercel deployment details | Optional | PASS with note | `evidence/deployment/vercel.png` |
-| E9 | Render deployment details | Optional | PASS with note | `evidence/deployment/render.png` |
-| E10 | Live production endpoint metadata | Independently captured | PASS | `evidence/deployment/2026-11-10_frontend_version.json`, `evidence/deployment/2026-11-10_backend_version.json`, `evidence/deployment/2026-11-10_backend_health.json`, `evidence/deployment/2026-11-10_backend_families.json`, `evidence/deployment/2026-11-10_capture-log.md` |
+| E1 | Desktop verify page, no wallet connected | Independently captured | PASS | [View image](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/desktop/2026-11-10_desktop_verify-page_unconnected.png) |
+| E2 | Desktop credential verification, ownership MATCH | Independently captured (public verification) | PASS | [View image](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/desktop/2026-11-10_desktop_verify-match_spore.png) |
+| E3 | Desktop credential verification, ownership MISMATCH | Independently captured (public verification) | PASS | [View image](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/desktop/2026-11-10_desktop_verify-mismatch_spore.png) |
+| E4 | Desktop - real wallet connected | Required | PASS with caveat | [View image](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/desktop/connected-JoyId.png) |
+| E5 | Desktop - wallet switching and Disconnect | Required | PASS with note | [Connected wallet](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/desktop/connected-JoyId.png) · [Disconnected result](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/desktop/desktop_disconnect.png) |
+| E6 | Mobile verify page layout | Independently captured | PASS | [View image](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/mobile/2026-11-10_mobile_verify-page_unconnected.png) |
+| E7 | Mobile - wallet menu and Disconnect | Required | PASS with note | [Wallet menu / Disconnect](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/mobile/mobile_wallet-menu_disconnect.png) · [Disconnected result](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/mobile/mobile_disconnected-result.png) |
+| E8 | Vercel deployment details | Optional | PASS with note | [View screenshot](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/vercel.png) |
+| E9 | Render deployment details | Optional | PASS with note | [View screenshot](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/render.png) |
+| E10 | Live production endpoint metadata | Independently captured | PASS | [Frontend version](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/2026-11-10_frontend_version.json) · [Backend version](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/2026-11-10_backend_version.json) · [Backend health](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/2026-11-10_backend_health.json) · [Credential families](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/2026-11-10_backend_families.json) · [Capture log](https://github.com/BTThang/ckbuilder/blob/main/week12/evidence/deployment/2026-11-10_capture-log.md) |, `evidence/deployment/2026-11-10_backend_version.json`, `evidence/deployment/2026-11-10_backend_health.json`, `evidence/deployment/2026-11-10_backend_families.json`, `evidence/deployment/2026-11-10_capture-log.md` |
 
 E5/E7 were re-reviewed on 2026-11-11. E5 and E7 are now both PASS with note
 after the desktop result and mobile menu/result captures were added. See section
